@@ -24,6 +24,7 @@ persist.mm.enable.prefetch=true
 
 # Radio
 ril.subscription.types=RUIM
+persist.sys.radio.force_lte_ca=true
 
 # Recovery
 ro.recovery.ui.margin_height=48
