@@ -32,6 +32,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
